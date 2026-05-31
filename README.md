@@ -88,20 +88,3 @@ npm install
 npm run dev -- --port 3000
 ```
 Open your browser to `http://localhost:3000`.
-
----
-
-## 🎙️ Live Demoing Guide
-
-### A. The "Full Stack Production" Experience
-1. Make sure your `.env` contains valid `OPENAI_API_KEY` and you have run `modal deploy modal_app.py`.
-2. Toggle the **Demo (Mock) Mode** switch to **OFF** in the top-right corner of the dashboard.
-3. Click the **Microphone** button, speak a custom question, and click **Stop**.
-4. The system will transcribe, query the live internet, evaluate conflicts, write a briefing, and read it back to you.
-
-### B. The "Hackathon Safety" Experience (Mock Mode)
-*If you don't have API keys, if you are offline, or if you want to showcase the dashboard instantly without latency:*
-1. Keep the **Demo (Mock) Mode** switch toggled **ON** (default).
-2. Click any of the **Sample Queries** chips (e.g., "Texas Grid Constraints") or speak into the microphone.
-3. The dashboard simulates every step of the agent pipeline with realistic, rich industry data (including planner results, source URLs, claims, and verified grid conflicts).
-4. A custom voice briefing will automatically compile and read the summary back to you.
